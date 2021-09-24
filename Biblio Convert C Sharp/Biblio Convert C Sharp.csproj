@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{945C787B-FD40-44F9-A9B9-CC982FD7817F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Biblio_Convert_C_Sharp</RootNamespace>
+    <AssemblyName>Biblio Convert C Sharp</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\Test Program\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>Biblion Convert Program</ProductName>
+    <PublisherName>Bogdan</PublisherName>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>33</ApplicationRevision>
+    <ApplicationVersion>1.0.6.33</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Program\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreGeneratedCode>true</CodeAnalysisIgnoreGeneratedCode>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Biblio_Convert_C_Sharp.Start_Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>8F5F34D8074BA8651F4CB65F1C3C71F62838AC76</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Biblio Convert C Sharp_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Biblio Convert C Sharp_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Badge.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Biblio_Convert_Extension.cs" />
+    <Compile Include="ALL_RIS_TXT.cs" />
+    <Compile Include="Check_Exit_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Check_Exit_Form.Designer.cs">
+      <DependentUpon>Check_Exit_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Converting_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Converting_Form.Designer.cs">
+      <DependentUpon>Converting_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Converting_Type_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Converting_Type_Form.Designer.cs">
+      <DependentUpon>Converting_Type_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Finish_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Finish_Form.Designer.cs">
+      <DependentUpon>Finish_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IClass_Type.cs" />
+    <Compile Include="From_RIS_to_TXT.cs" />
+    <Compile Include="Function.cs" />
+    <Compile Include="Info_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info_Form.Designer.cs">
+      <DependentUpon>Info_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Open_Variant_Convert.cs" />
+    <Compile Include="Start_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Start_Form.Designer.cs">
+      <DependentUpon>Start_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Start_Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Check_Exit_Form.resx">
+      <DependentUpon>Check_Exit_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Converting_Form.resx">
+      <DependentUpon>Converting_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Converting_Type_Form.resx">
+      <DependentUpon>Converting_Type_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finish_Form.resx">
+      <DependentUpon>Finish_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info_Form.resx">
+      <DependentUpon>Info_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Start_Form.resx">
+      <DependentUpon>Start_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Biblio Convert C Sharp_TemporaryKey.pfx" />
+    <Content Include="Badge.ico" />
+    <Content Include="File_Info\Country_Code.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="File_Info\Language_Code.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="File_Info\Mark_from_RIS_to_TXT.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="File_Info\Mark_Ignore.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

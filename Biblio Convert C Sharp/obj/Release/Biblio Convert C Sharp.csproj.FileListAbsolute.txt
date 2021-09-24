@@ -1,0 +1,26 @@
+D:\Work\Biblio Convert C Sharp\Biblio Convert C Sharp\bin\Release\Biblio Convert C Sharp.exe.config
+D:\Work\Biblio Convert C Sharp\Biblio Convert C Sharp\bin\Release\Biblio Convert C Sharp.exe
+D:\Work\Biblio Convert C Sharp\Biblio Convert C Sharp\bin\Release\Biblio Convert C Sharp.pdb
+D:\Work\Biblio Convert C Sharp\Biblio Convert C Sharp\bin\Release\Newtonsoft.Json.dll
+D:\Work\Biblio Convert C Sharp\Biblio Convert C Sharp\bin\Release\Newtonsoft.Json.xml
+D:\Work\Biblio Convert C Sharp\Biblio Convert C Sharp\obj\Release\Biblio_Convert_C_Sharp.Check_Exit_Form.resources
+D:\Work\Biblio Convert C Sharp\Biblio Convert C Sharp\obj\Release\Biblio_Convert_C_Sharp.Converting_Form.resources
+D:\Work\Biblio Convert C Sharp\Biblio Convert C Sharp\obj\Release\Biblio_Convert_C_Sharp.Converting_Type_Form.resources
+D:\Work\Biblio Convert C Sharp\Biblio Convert C Sharp\obj\Release\Biblio_Convert_C_Sharp.Finish_Form.resources
+D:\Work\Biblio Convert C Sharp\Biblio Convert C Sharp\obj\Release\Biblio_Convert_C_Sharp.Info_Form.resources
+D:\Work\Biblio Convert C Sharp\Biblio Convert C Sharp\obj\Release\Biblio_Convert_C_Sharp.Properties.Resources.resources
+D:\Work\Biblio Convert C Sharp\Biblio Convert C Sharp\obj\Release\Biblio_Convert_C_Sharp.Start_Form.resources
+D:\Work\Biblio Convert C Sharp\Biblio Convert C Sharp\obj\Release\Biblio Convert C Sharp.csproj.GenerateResource.cache
+D:\Work\Biblio Convert C Sharp\Biblio Convert C Sharp\obj\Release\Biblio Convert C Sharp.csproj.CoreCompileInputs.cache
+D:\Work\Biblio Convert C Sharp\Biblio Convert C Sharp\obj\Release\Biblio Convert C Sharp.csproj.CopyComplete
+D:\Work\Biblio Convert C Sharp\Biblio Convert C Sharp\obj\Release\Biblio Convert C Sharp.exe
+D:\Work\Biblio Convert C Sharp\Biblio Convert C Sharp\obj\Release\Biblio Convert C Sharp.pdb
+D:\Work\Biblio Convert C Sharp\Biblio Convert C Sharp\bin\Release\Biblio Convert C Sharp.exe.manifest
+D:\Work\Biblio Convert C Sharp\Biblio Convert C Sharp\bin\Release\Biblio Convert C Sharp.application
+D:\Work\Biblio Convert C Sharp\Biblio Convert C Sharp\obj\Release\Biblio Convert C Sharp.exe.manifest
+D:\Work\Biblio Convert C Sharp\Biblio Convert C Sharp\obj\Release\Biblio Convert C Sharp.application
+D:\Work\Biblio Convert C Sharp\Biblio Convert C Sharp\bin\Release\File_Info\Country_Code.json
+D:\Work\Biblio Convert C Sharp\Biblio Convert C Sharp\bin\Release\File_Info\Language_Code.json
+D:\Work\Biblio Convert C Sharp\Biblio Convert C Sharp\bin\Release\File_Info\Mark_from_RIS_to_TXT.json
+D:\Work\Biblio Convert C Sharp\Biblio Convert C Sharp\bin\Release\File_Info\Mark_Ignore.json
+D:\Work\Biblio Convert C Sharp\Biblio Convert C Sharp\obj\Release\Biblio Convert C Sharp.csproj.AssemblyReference.cache
