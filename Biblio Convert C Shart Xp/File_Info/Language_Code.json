@@ -1,0 +1,26 @@
+[
+  {
+    "Language": "English",
+    "Code": "eng"
+  },
+  {
+    "Language": "French",
+    "Code": "fra"
+  },
+  {
+    "Language": "German",
+    "Code": "deu"
+  },
+  {
+    "Language": "Polish",
+    "Code": "pol"
+  },
+  {
+    "Language": "Russian",
+    "Code": "rus"
+  },
+  {
+    "Language": "Ukrainian",
+    "Code": "ukr"
+  }
+]
